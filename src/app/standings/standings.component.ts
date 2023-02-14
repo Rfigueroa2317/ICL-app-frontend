@@ -15,5 +15,6 @@ export class StandingsComponent implements OnInit {
   constructor(private standingService: StandingService) {}
 
   ngOnInit(): void {
+
   }
 }

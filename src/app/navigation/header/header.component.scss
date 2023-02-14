@@ -2,3 +2,20 @@
     background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    &__teams {
+
+    }
+
+    &__standings {
+
+    }
+}
