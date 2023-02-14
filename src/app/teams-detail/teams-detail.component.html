@@ -1,11 +1,1 @@
 <h2>My Teams</h2>
-
-<div *ngIf="team">
-  <h2>{{ team.name | uppercase }}</h2>
-  <div>
-    <span>id: {{ team.id }}</span>
-  </div>
-  <label for="team-name">Team Name: </label>
-  <input id="team-name" [(ngModel)]="team.name" placeholder="name" />
-  <button type="button" (click)="goBack()">Go Back</button>
-</div>

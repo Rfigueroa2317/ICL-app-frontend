@@ -15,16 +15,5 @@ export class StandingsComponent implements OnInit {
   constructor(private standingService: StandingService) {}
 
   ngOnInit(): void {
-    this.getStandings();
-  }
-
-  onSelect(standing: IStandings): void {
-    this.selectedStanding = standing;
-  }
-
-  getStandings(): void {
-    this.standingService
-      .getStandings()
-      .subscribe((standing) => (this.standings = standing));
   }
 }

@@ -1,16 +1,1 @@
 <h1>ICL Teams</h1>
-
-<ul class="teams">
-  <li *ngFor="let team of teams">
-    <button
-      type="button"
-      (click)="onSelect(team)"
-      [class.selected]="team === selectedTeam"
-    >
-      <span class="badge">{{ team.id }}</span>
-      <span class="name">{{ team.name }}</span>
-    </button>
-  </li>
-</ul>
-
-<app-teams-detail [team]="selectedTeam"></app-teams-detail>
