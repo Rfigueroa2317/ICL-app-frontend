@@ -27,6 +27,12 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     MatTableModule,
   ],
+  exports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    MatTableModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
