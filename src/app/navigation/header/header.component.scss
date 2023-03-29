@@ -1,21 +1,24 @@
-.header {
-    background-color: darkgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.headerWrapper {
+  height: 5rem;
+  margin-top: -1rem;
+  display: flex;
+  align-items: center;
 }
 
-.home {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+.header {
+  background-color: darkgray;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    &__teams {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  &__teams {
+  }
 
-    }
-
-    &__standings {
-
-    }
+  &__standings {
+  }
 }

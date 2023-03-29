@@ -11,6 +11,7 @@ import { TeamsDetailComponent } from './teams-detail/teams-detail.component';
 import { StandingsComponent } from './standings/standings.component';
 
 import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -26,12 +27,14 @@ import { MatTableModule } from '@angular/material/table';
     AppRoutingModule,
     FormsModule,
     MatTableModule,
+    MatCardModule,
   ],
   exports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     MatTableModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
