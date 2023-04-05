@@ -9,11 +9,16 @@
 
 .card-container {
   border-radius: 10px;
-  height: 15rem;
-  width: 10rem;
+  height: 22rem;
+  width: 15rem;
 
   .team {
     display: flex;
     justify-content: center;
+  }
+
+  #team-img {
+    height: 60%;
+    width: 100%;
   }
 }
