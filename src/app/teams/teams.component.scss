@@ -22,3 +22,10 @@
     width: 100%;
   }
 }
+
+.cards-wrapper-1,
+.cards-wrapper-2,
+.cards-wrapper-3 {
+  display: flex;
+  justify-content: space-evenly;
+}

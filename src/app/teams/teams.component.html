@@ -3,11 +3,78 @@
     <div class="teamsHeaderWrapper">
       <h1 class="teamsHeader">ICL Teams</h1>
     </div>
-
-    <mat-card class="card-container">
-        <img id="team-img" src="assets/_images/brawns.png" alt="brawns">
-        <span class="team">Team</span>
-    </mat-card>
-
+    <div class="cards-container">
+      <div class="cards-wrapper-1">
+        <mat-card class="card-container">
+          <img id="team-img" src="assets/_images/brawns.png" alt="brawns" />
+          <!-- <tr *ngFor="let team of teams">
+          <td>{{team.teamImage}}</td>
+          <td>{{team.id}}</td>
+          <td>{{team.name}}</td>
+        </tr> -->
+          <span class="team">Brawns</span>
+        </mat-card>
+        <mat-card class="card-container">
+          <img
+            id="team-img"
+            src="assets/_images/brainiacs_small.png"
+            alt="brainiacs"
+          />
+          <span class="team">brainiacs</span>
+        </mat-card>
+        <mat-card class="card-container">
+          <img
+            id="team-img"
+            src="assets/_images/dragons_small.png"
+            alt="dragons"
+          />
+          <span class="team">Dragons</span>
+        </mat-card>
+      </div>
+      <div class="cards-wrapper-2">
+        <mat-card class="card-container"
+          ><img
+            id="team-img"
+            src="assets/_images/flames_small.png"
+            alt="flames"
+          />
+          <span class="team">Flames</span>
+        </mat-card>
+        <mat-card class="card-container"
+          ><img
+            id="team-img"
+            src="assets/_images/foresters_small.png"
+            alt="foresters"
+          />
+          <span class="team">Foresters</span>
+        </mat-card>
+        <mat-card class="card-container"
+          ><img
+            id="team-img"
+            src="assets/_images/ice_caps_small.png"
+            alt="dragons"
+          />
+          <span class="team">Ice Caps</span>
+        </mat-card>
+      </div>
+      <div class="cards-wrapper-3">
+        <mat-card class="card-container"
+          ><img
+            id="team-img"
+            src="assets/_images/nightmares_small.png"
+            alt="dragons"
+          />
+          <span class="team">Nightmares</span>
+        </mat-card>
+        <mat-card class="card-container"
+          ><img
+            id="team-img"
+            src="assets/_images/salty_crew.png"
+            alt="dragons"
+          />
+          <span class="team">Salty Crew</span>
+        </mat-card>
+      </div>
+    </div>
   </div>
 </div>
