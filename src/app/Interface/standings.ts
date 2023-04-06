@@ -4,4 +4,6 @@ export interface IStandings {
     win: number;
     loss: number;
     draw: number;
+    pf: number;
+    pa: number;
 }
