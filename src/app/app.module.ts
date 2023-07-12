@@ -12,6 +12,7 @@ import { StandingsComponent } from './standings/standings.component';
 
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
+import { MatchesComponent } from './matches/matches.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     TeamsDetailComponent,
     StandingsComponent,
+    MatchesComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TeamsComponent } from './teams/teams.component';
 import { StandingsComponent } from './standings/standings.component';
 import { HomeComponent } from './home/home.component';
+import { MatchesComponent } from './matches/matches.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'standings',
     component: StandingsComponent
+  },
+  {
+    path: 'matches',
+    component: MatchesComponent
   }
 ];
 
